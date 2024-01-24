@@ -17,3 +17,17 @@ Submission of a battle between 2 layouts involve having a human typer that types
 6. To decide the result of the battle:
     1. If the time is the same or the difference is below some threshold, then the battle is counted as a draw (If both sums are infinite, then it's a draw).
     2. Otherwise the layout with the lower total time is the winner.
+
+# Layouts
+
+Since all layouts are custom, here are some examples for copy-paste.
+
+The format is 3 rows and 10 keys per row.
+
+| Layout | Data |
+| - | - |
+| qwerty | `qwertyuiopasdfghjkl;zxcvbnm,./` |
+| dvorak | `',.pyfgcrlaoeuidhtns;qjkxbmwvz` |
+| colemak-dh | `qwfpbjluy;arstgmneiozxcdvkh,./` |
+| mtgap | `ypoujkdlcwinea,mhtsrqz/.:bfgvx` |
+| my-dumb-layout | `frdpwqjuoysntcbmheaizxkgv.l;',` |
