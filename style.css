@@ -1,0 +1,12 @@
+.layout-input {
+    width: 300px;
+}
+
+.field {
+    margin: 10%;
+    font-size: 30px;
+}
+
+.field .bg {
+    background-color: lightgreen;
+}

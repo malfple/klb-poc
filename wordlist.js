@@ -1,4 +1,4 @@
-{
+const wordlist = {
     "en": [
         "ability",
         "able",

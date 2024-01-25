@@ -7,7 +7,28 @@
     <body>
         <h1>Keyboard Layout Battles - Proof of concept</h1>
         <p>
-            Select layout to use:
+            Base Layout: <input type="text" class="layout-input" id="layout-base">
         </p>
+        <p>
+            Layout A: <input type="text" class="layout-input" id="layout-a">
+        </p>
+        <p>
+            Layout B: <input type="text" class="layout-input" id="layout-b">
+        </p>
+        <button id="start-button">Start</button>
+        <br>
+        <div class="field" id="field" hidden="true">
+            <div>
+                <p id="text-area"></p>
+            </div>
+            <div class="timer">
+                <p>times (second): <span id="times"></span></p>
+                <p>Result (sum of 3 lowest): <span id="result"></span></p>
+            </div>
+        </div>
     </body>
 </html>
+
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="wordlist.js"></script>
+<script type="text/javascript" src="script.js"></script>

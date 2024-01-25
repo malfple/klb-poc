@@ -13,7 +13,7 @@ Submission of a battle between 2 layouts involve having a human typer that types
 5. For each word, the following will be done:
     1. Duplicate the word multiple times up to 10 times and arrange them back to back for the typer to type. (`translated_word translated_word translated_word translated_word ...` )
     2. Typer will type and time taken for each word will be recorded. Time recorded is between the first character keypress and the space keypress after the word, meaning the typer can pause just before the first character of each word. This needs to be communicated.
-    3. Pick the 3 best times and take the sum. If the typer makes a mistake on a word, the time for that word will be ignored. If there are less than 3 eligible times, make the sum infinite.
+    3. Pick the 3 best times and take the sum. An additional rule can be added so that if the typer makes a mistake on a word, the time for that word will be ignored. If there are less than 3 eligible times, make the sum infinite.
 6. To decide the result of the battle:
     1. If the time is the same or the difference is below some threshold, then the battle is counted as a draw (If both sums are infinite, then it's a draw).
     2. Otherwise the layout with the lower total time is the winner.
