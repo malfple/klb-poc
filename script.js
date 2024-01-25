@@ -100,6 +100,8 @@ startButton.addEventListener("click", function(e) {
     field.hidden = false;
     times1 = [];
     times2 = [];
+    times.innerHTML = '';
+    result.innerHTML = '';
 });
 
 function processInput(e) {
@@ -127,10 +129,9 @@ function processInput(e) {
         times2.sort();
         let sum1 = times1[0] + times1[1] + times1[2];
         let sum2 = times2[0] + times2[1] + times2[2];
-        result.innerHTML = sum1 + ' ' + sum2;
+        result.innerHTML = sum1 + ' | ' + sum2;
         if(sum1 < sum2) result.innerHTML += ' layout A wins';
         else result.innerHTML += ' | layout B wins';
-
     }
 }
 

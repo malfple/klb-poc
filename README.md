@@ -1,5 +1,7 @@
 # Keyboard layout battles - proof of concept
 
+Access it using github pages: https://malfple.github.io/klb-poc/
+
 Written in basic js, to check how the typing submission will feel.
 
 Submission of a battle between 2 layouts involve having a human typer that types pairs of translated words. The time taken for each translated word is recorded and then used to decide the winner and loser of the match. The Elo rating of the layouts can thet be calculated.
